@@ -2,7 +2,9 @@
   <Folder Name="/Backend/" />
   <Folder Name="/Backend/Gateway/" />
   <Folder Name="/Backend/Services/" />
-  <Folder Name="/Backend/Shared/" />
+  <Folder Name="/Backend/Shared/">
+    <Project Path="MediPay.Shared.Kernel/MediPay.Shared.Kernel.csproj" />
+  </Folder>
   <Folder Name="/Frontend/" />
   <Folder Name="/Keys/" />
 </Solution>
