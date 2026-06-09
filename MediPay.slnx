@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Backend/" />
+  <Folder Name="/Backend/Gateway/" />
+  <Folder Name="/Backend/Services/" />
+  <Folder Name="/Backend/Shared/" />
+  <Folder Name="/Frontend/" />
+  <Folder Name="/Keys/" />
+</Solution>
