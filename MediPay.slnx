@@ -3,7 +3,8 @@
   <Folder Name="/Backend/Gateway/" />
   <Folder Name="/Backend/Services/" />
   <Folder Name="/Backend/Shared/">
-    <Project Path="MediPay.Shared.Kernel/MediPay.Shared.Kernel.csproj" />
+    <Project Path="Backend/Shared/MediPay.Shared.Contracts/MediPay.Shared.Contracts.csproj" Id="202e3047-6b1d-4634-8e8a-b209c7f612a0" />
+    <Project Path="Backend/Shared/MediPay.Shared.Kernel/MediPay.Shared.Kernel.csproj" Id="b7857d09-b4d9-4c80-a73a-30beb00bd66e" />
   </Folder>
   <Folder Name="/Frontend/" />
   <Folder Name="/Keys/" />
