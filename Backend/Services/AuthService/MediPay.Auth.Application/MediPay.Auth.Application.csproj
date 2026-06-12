@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\MediPay.Shared.Contracts\MediPay.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\Shared\MediPay.Shared.Messaging\MediPay.Shared.Messaging.csproj" />
+    <ProjectReference Include="..\MediPay.Auth.Domain\MediPay.Auth.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\ChangePassword\" />
+    <Folder Include="Commands\Logout\" />
+    <Folder Include="Commands\Login\" />
+    <Folder Include="Commands\AddAddress\" />
+    <Folder Include="Commands\CompleteProfile\" />
+    <Folder Include="Commands\RegisterDoctor\" />
+    <Folder Include="Commands\VerifyOtp\" />
+    <Folder Include="Commands\RegisterPatient\" />
+    <Folder Include="Commands\RefreshToken\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Queries\GetUserProfile\" />
+    <Folder Include="Queries\GetUserById\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Mapster" Version="10.0.8" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="10.0.8" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.9" />
+  </ItemGroup>
+
+</Project>

@@ -2,9 +2,16 @@
   <Folder Name="/Backend/" />
   <Folder Name="/Backend/Gateway/" />
   <Folder Name="/Backend/Services/" />
+  <Folder Name="/Backend/Services/AuthService/">
+    <Project Path="Backend/Services/AuthService/MediPay.Auth.API/MediPay.Auth.API.csproj" Id="85b5cc23-37d5-4fb6-9878-d48c565b61b5" />
+    <Project Path="Backend/Services/AuthService/MediPay.Auth.Application/MediPay.Auth.Application.csproj" Id="68333f17-d772-4fde-8cc2-09bb43b6fba1" />
+    <Project Path="Backend/Services/AuthService/MediPay.Auth.Domain/MediPay.Auth.Domain.csproj" Id="40e8ece2-7a7f-4035-b3df-50a6e294f53f" />
+    <Project Path="Backend/Services/AuthService/MediPay.Auth.Infrastructure/MediPay.Auth.Infrastructure.csproj" Id="953c4b0b-7260-492c-9d42-08ba0185c001" />
+  </Folder>
   <Folder Name="/Backend/Shared/">
     <Project Path="Backend/Shared/MediPay.Shared.Contracts/MediPay.Shared.Contracts.csproj" Id="202e3047-6b1d-4634-8e8a-b209c7f612a0" />
     <Project Path="Backend/Shared/MediPay.Shared.Kernel/MediPay.Shared.Kernel.csproj" Id="b7857d09-b4d9-4c80-a73a-30beb00bd66e" />
+    <Project Path="Backend/Shared/MediPay.Shared.Messaging/MediPay.Shared.Messaging.csproj" Id="2fa3d9cc-c65e-41dd-bafc-79d908ba9e81" />
   </Folder>
   <Folder Name="/Frontend/" />
   <Folder Name="/Keys/" />

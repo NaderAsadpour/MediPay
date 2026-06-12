@@ -7,10 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Grpc\" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="9.1.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MediPay.Shared.Contracts\MediPay.Shared.Contracts.csproj" />
     <ProjectReference Include="..\MediPay.Shared.Kernel\MediPay.Shared.Kernel.csproj" />
   </ItemGroup>
 
